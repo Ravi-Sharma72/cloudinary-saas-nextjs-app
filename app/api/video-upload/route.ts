@@ -10,7 +10,7 @@ const prisma = new PrismaClient()
 cloudinary.config({
     cloud_name: process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME,
     api_key: process.env.CLOUDINARY_API_KEY,
-    api_secret: process.env.CLOUDINARY_API_SECRET // Click 'View Credentials' below to copy your API secret
+    api_secret: process.env.CLOUDINARY_API_SECRET 
 });
 
 interface CloudinaryUploadResult {
